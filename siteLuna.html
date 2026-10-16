@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna - Apoio Emocional e Acolhimento</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6C5CE7;
+            --secondary: #A29BFE;
+            --background: #F8F9FA;
+            --text: #2D3436;
+            --card-bg: #FFFFFF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .header {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #A29BFE 0%, #6C5CE7 100%);
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+            opacity: 0.9;
+        }
+
+        .btn-telegram {
+            display: inline-block;
+            background-color: #0088CC;
+            color: white;
+            padding: 16px 36px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .btn-telegram:hover {
+            transform: translateY(-3px);
+            background-color: #0077B5;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .alert-box {
+            background-color: #FFF3CD;
+            border-left: 5px solid #FFC107;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 50px;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #E9ECEF;
+            font-size: 0.9rem;
+            color: #6C757D;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Conheça a Luna 🌻</h1>
+        <p>Sua assistente virtual de apoio emocional. Um espaço seguro e acolhedor para quando a ansiedade bater.</p>
+        <!-- COLE SEU LINK DO TELEGRAM ABAIXO NO href -->
+        <a href="http://t.me/LunaApoioBot" target="_blank" class="btn-telegram">
+            💬 Conversar com a Luna no Telegram
+        </a>
+    </header>
+
+    <div class="container">
+        <section class="features">
+            <div class="card">
+                <h3>🤝 Escuta sem Julgamentos</h3>
+                <p>Um lugar tranquilo para você desabafar e organizar seus pensamentos no seu próprio tempo.</p>
+            </div>
+            <div class="card">
+                <h3>🧘‍♂️ Exercícios Guiados</h3>
+                <p>Aprenda técnicas de respiração e ancoragem no presente para ajudar a desacelerar em momentos de ansiedade.</p>
+            </div>
+            <div class="card">
+                <h3>💙 Você Não Está Sozinho</h3>
+                <p>A Luna foi feita para estar ao seu lado e te oferecer suporte com muito carinho e respeito.</p>
+            </div>
+        </section>
+
+        <div class="alert-box">
+            <strong>📌 Aviso Importante:</strong> A Luna é uma assistente virtual de acolhimento e <strong>não substitui a consulta com psicólogos ou médicos</strong>. Se você estiver passando por uma emergência de saúde mental ou sofrimento extremo, ligue gratuitamente para o <strong>CVV no número 188</strong> ou procure ajuda especializada.
+        </div>
+    </div>
+
+    <footer>
+        <p>Projeto de Apoio Emocional - Integrantes: José Cicero Pereira da Cruz e Grupo.</p>
+    </footer>
+
+</body>
+</html>
